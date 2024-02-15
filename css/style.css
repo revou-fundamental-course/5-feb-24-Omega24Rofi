@@ -1,0 +1,120 @@
+/* CSS RESET */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+*{
+	margin:5px;
+}
+body {
+	line-height: 1;
+	background-image: url("https://images.unsplash.com/photo-1575573685828-7c1e20f05124?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: "Montserrat", sans-serif;
+	color: white;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.container{
+	width: 70%;
+	margin: auto;
+	background-color: rgba(255, 115, 0, 0.677);
+	padding:20px;
+	height: 94vh;
+}
+header{
+	margin: auto;
+	text-align: center;
+}
+
+header h1{
+	font-size: 3rem ;
+	font-weight: bold;
+
+}
+
+main{
+	width: 50%;
+	margin-top: 25px;
+}
+
+input, button, textarea{
+	border-radius: 5px;
+}
+input{
+	padding: 5px;
+	border: none;
+}
+nav button{
+	border: none;
+	padding: 8px 10px;
+	border-radius: 7px;
+}
+nav button:first-child{
+	background-color: rgb(0, 162, 0);
+	color: whitesmoke;
+}
+
+nav button:first-child:hover{
+	background-color: rgb(0, 133, 0);
+}
+
+nav button:nth-child(2){
+	background-color: rgb(207, 12, 12);
+	color: white;
+}
+
+nav button:nth-child(2):hover{
+	background-color: rgb(183, 13, 13);}
+
+.konversiBtn:disabled{
+	background-color: rgb(0, 33, 0);
+}
+textarea{
+	display: block;
+}
+
+.deskripsi{
+	margin: 20px 0 ;
+	font-size: 30px;
+	font-weight: 600;
+	text-decoration: underline;
+	text-align: center;
+}
